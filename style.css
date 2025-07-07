@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 45px;
+}
+
+#input-field{
+    font-size: 25px;
+    margin: 20px;
+    border: 4px solid grey;
+    border-radius: 25px;
+    text-align: center;
+}
+
+button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    border-radius: 50%;
+    color: greenyellow;
+    background-color: darkgreen;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: greenyellow;
+    color: darkgreen;
+}
+
+h1{
+    color: black;
+    text-decoration: underline darkslategray;
+}
