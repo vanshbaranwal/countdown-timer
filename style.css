@@ -4,21 +4,35 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: cornflowerblue;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .container{
+    border: 5px solid black;
+    border-width: 10px;
+    padding: 10px;
+    margin: 12% 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 10%;
     font-size: 45px;
 }
 
 #timeInput{
     font-size: 25px;
     margin: 20px;
-    border: 4px solid grey;
+    border: 5px solid;
     border-radius: 25px;
     text-align: center;
+}
+#timeInput::placeholder{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button{
@@ -42,7 +56,7 @@ button:hover{
 
 h1{
     color: black;
-    text-decoration: underline darkslategray;
+    text-decoration: underline black;
 }
 
 /* to remove the default arrows in the input field*/
@@ -50,5 +64,12 @@ h1{
 #timeInput::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+#countdownDisplay{
+    color: black;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-weight: bold;
 }
 
